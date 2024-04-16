@@ -1,0 +1,56 @@
+
+body{
+  background-color: rgb(54, 54, 54);
+}
+
+.hm-ctnr{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.head{
+  cursor: default;
+  position: absolute;
+  top: 75px;
+  font-size: 70px;
+  font-style: italic;
+  color: white;
+}
+.head h1{
+font-style: italic;
+  text-shadow: 3px 3px 15px green;
+}
+
+.hm-ctnr input{
+  font-size: 17px;
+  display: block;
+  padding: 10px 35px;
+  margin: 10px;
+  border: 1px solid black;
+  border-radius: 12px;
+}
+
+.hm-ctnr button{
+  cursor: pointer;
+  display: block;
+  font-size: 20px;
+  padding: 10px 75px;
+  margin: auto;
+  margin-top: 25px;
+  border: 1px solid black;
+  border-radius: 12px;
+  box-shadow: 0 5px 10px green;
+}
+.hm-ctnr button:hover{
+  background-color: green;
+  color: white;
+  box-shadow: 0 5px 5px green;
+}
+.hm-ctnr button:active{
+  transform: translateY(3%);
+  box-shadow: 0 4px 5px green;
+}
